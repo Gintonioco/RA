@@ -1,0 +1,27 @@
+fieldset {
+    background-color: rgb(248, 248, 167);
+    margin-bottom: 1em;
+    padding-top: 1.5em;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.labels {
+    position: absolute;
+    font-weight: bold;
+    left: 20px;
+    padding-top: .2em;
+}
+
+
+
+.inputs {
+    margin-left: 10em;
+    margin-bottom: .2em;
+}
+
+span {
+    color: red;
+}

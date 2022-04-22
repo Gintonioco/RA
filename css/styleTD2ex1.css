@@ -1,0 +1,49 @@
+header {
+    background-color: rgb(229, 255, 0);
+    
+    /*display: flex; /*pour le mettre à côté*/
+}
+
+h1 {
+    display: inline;
+    /*vertical-align: top;*/
+}
+
+
+body {
+    background-color: grey;
+}
+
+.vert {
+    background-color: green;
+}
+
+.violet {
+    background-color: blueviolet;
+}
+
+td {
+    border: 5px solid rgb(255, 0, 0);
+    background-color: green;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border: 5px solid rgb(255, 0, 0);
+    background-color: green;
+    color: black;
+}
+
+#lien1 {
+    color:rgb(255, 72, 0);
+}
+
+#lien2 {
+    color:rgb(0, 255, 115);
+}
+
+.psynopsis {
+    text-align: center;
+}
+

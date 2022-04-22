@@ -1,0 +1,64 @@
+/* 
+nomBalise {
+    propriete: valeur;
+    propriete2: valeur;
+}
+*/
+
+h1,
+h3,
+h6,
+#text {
+    color: red;
+}
+
+#header1 {
+    background-color: darkorange;
+}
+
+#tableau {
+    font-size: 30px;
+}
+
+.similaire {
+    font-weight: bold;
+}
+
+section>article {
+    text-decoration: underline;
+
+}
+
+ul>li {
+    /* uniquement les li de ul */
+    list-style-type: none;
+    display: inline-block;
+    float: center;
+    border: 3px dotted blue;
+    padding-left : 100px;
+    padding-right : 100px;
+    margin: 20px;
+    /*margin-top: 35px;*/
+}
+
+ul{
+    background-color: rgb(184, 41, 172);
+}
+
+/*
+ul, li { //tous les ul et tous les li
+    list-style-type: none;
+}
+*/
+
+body>p {
+    /*on ne prend que le premier paragraphe*/
+    border: 3px solid green;
+    width: 50px;
+    height: 50px;
+}
+
+section {
+    display: flex;
+    flex-direction: column-reverse;
+}
