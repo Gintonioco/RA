@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(165, 125, 125);
+    
+}
+
+#corps {
+    margin-left: 10px;
+}
+
+#logoCV, h1 {
+    margin-left: 20px;
+}
+
+header {
+    background-color: rgb(248, 248, 167);
+    margin-bottom: 1em;
+    padding-top: 1.5em;
+    
+    display: flex;
+}
+
+h2 {
+    background-color: rgb(0, 110, 255);
+    color: white;
+    vertical-align: top;
+}
+
+.nav-item {
+    text-align: center;
+}
+
+#timeitalic {
+    font-style: italic;
+}
+
+#nomjob {
+    font-weight: bold;
+    color: blue;
+}
+
+.expgauche {
+
+}
+
+.expdroite {
+    text-align: justify;
+    left: 2000px;
+}
+/*
+position: absolute;
+display: flex;
+vertical-align: top;
